@@ -11,3 +11,8 @@ Una volta che si ferma:
 - se ci sono tre Z allora è JACKPOT e vengono restituite 100 monetine
 altrimenti non viene restituito nulla e si passa alla partita successiva inserendo una nuova monetina.
 Le monete vinte possono essere rigiocate oppure riscosse dal giocatore. 
+
+
+- Realizzare una libreria di classi C# con le classi relative alla SlotMachine
+- Realizzare un programma WPF che usa la libreria di classi
+- Realizzare un programma Console che usa la stessa libreria di classi
