@@ -103,7 +103,7 @@ namespace SlotMachineLib
             }
         }
 
-        private void Check()
+        public void Check()
         {
 
             if (Let1 == Let2 && Let2 == Let3)

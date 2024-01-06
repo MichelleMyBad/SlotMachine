@@ -35,13 +35,13 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
-            <TextBox x:Name="let1" Grid.Row="0" Grid.Column="0" IsReadOnly="True" BorderBrush="Black" BorderThickness="2" FontSize="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">A</TextBox>
+            <TextBox x:Name="let1" Grid.Row="0" Grid.Column="0" IsReadOnly="True" BorderBrush="Black" BorderThickness="2" FontSize="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"></TextBox>
             <Button Grid.Row="1" Grid.Column="0" Click="Button_Click_3">HOLD</Button>
 
-            <TextBox x:Name="let2" Grid.Row="0" Grid.Column="1" IsReadOnly="True" BorderBrush="Black" BorderThickness="2" FontSize="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">B</TextBox>
+            <TextBox x:Name="let2" Grid.Row="0" Grid.Column="1" IsReadOnly="True" BorderBrush="Black" BorderThickness="2" FontSize="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"></TextBox>
             <Button Grid.Row="1" Grid.Column="1" Click="Button_Click_4" >HOLD</Button>
 
-            <TextBox x:Name="let3" Grid.Row="0" Grid.Column="2" IsReadOnly="True" BorderBrush="Black" BorderThickness="2" FontSize="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">C</TextBox>
+            <TextBox x:Name="let3" Grid.Row="0" Grid.Column="2" IsReadOnly="True" BorderBrush="Black" BorderThickness="2" FontSize="120" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"></TextBox>
             <Button Grid.Row="1" Grid.Column="2" Click="Button_Click_5">HOLD</Button>
 
         </Grid>
