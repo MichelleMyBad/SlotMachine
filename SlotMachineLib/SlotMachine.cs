@@ -29,6 +29,7 @@ namespace SlotMachineLib
 
         public void Roll()
         {
+            if(Counter==3) { Monete--; }
             Started = true;
             Random l1 = new Random();
             Random l2 = new Random();
@@ -44,7 +45,6 @@ namespace SlotMachineLib
 
             Counter--;
 
-
             if (Counter == 0)
             {
                 Check();
@@ -52,7 +52,6 @@ namespace SlotMachineLib
                 Hold1 = false;
                 Hold2 = false;
                 Hold3 = false;
-                Monete--;
                 Counter = 3;
             }
         }
@@ -99,20 +98,21 @@ namespace SlotMachineLib
                 Hold1 = false;
                 Hold2 = false;
                 Hold3 = false;
-                Monete--;
             }
         }
 
-        public void Check()
+        private void Check()
         {
 
             if (Let1 == Let2 && Let2 == Let3)
             {
                 if (Let1 == 26)
                 { Win = 100; Monete += 100; return; }
-
-                Win = Let1;
-                Monete += Let1;
+                else
+                {
+                    Win = Let1;
+                    Monete += Let1;
+                }
             }
             else if (Let1 == Let2 ||
             Let3 == Let1 ||
