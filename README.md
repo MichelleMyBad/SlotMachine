@@ -12,11 +12,11 @@ Esercizio in WPF e console che si occupa di emulare una slot machine.<br><br>
 <summary>WPF</summary>
 
 <b>Interfaccia grafica</b><br>
-<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/c787b570-b08b-465a-85f5-07319d7dd5a7">
+<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/c787b570-b08b-465a-85f5-07319d7dd5a7" width="400">
 <br>
 <br>
 <b>Punteggi</b><br>
-<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/69e43568-93eb-4041-a98f-571518fb73cf">
+<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/69e43568-93eb-4041-a98f-571518fb73cf" width="400">
 
 - se c’è una coppia viene restituita una moneta 
 - se c’è un tris di simboli uguali vengono restituite un numero di monete pari alla posizione in ordine del simbolo(es. tre corone corrispondono a 7 monete)
