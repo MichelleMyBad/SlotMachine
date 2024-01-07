@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>SlotMachineProj</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="slot.png" />
+    <None Remove="tols.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SlotMachineLib\SlotMachineLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="slot.png" />
+    <Resource Include="tols.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Carte\Carte.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
