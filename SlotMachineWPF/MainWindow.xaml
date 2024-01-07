@@ -26,7 +26,7 @@
 
         <!--riga 0-->
 
-        <Image Source="./Carte/chart.png" Grid.Row="0" Grid.ColumnSpan="2"></Image>
+        <Image Source="chart.png" Grid.Row="0" Grid.ColumnSpan="2"></Image>
 
         <!--riga 1-->
         <Grid Grid.Row="1" Grid.Column="0">

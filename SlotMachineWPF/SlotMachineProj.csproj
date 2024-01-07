@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Carte\chart.png" />
     <None Remove="slot.png" />
     <None Remove="tols.png" />
   </ItemGroup>
@@ -18,15 +19,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="chart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="slot.png" />
     <Resource Include="tols.png" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="Carte\Carte.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Carte\chart.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
