@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SlotMachineProj"
         mc:Ignorable="d"
-        Title="SlotMachine" Height="450" Width="800"
+        Title="SlotMachine" Height="650" Width="800"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Image x:Key="Play" Source="/slot.png" />
@@ -16,6 +16,7 @@
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="310*"></ColumnDefinition>
@@ -24,7 +25,11 @@
 
 
         <!--riga 0-->
-        <Grid Grid.Row="0" Grid.Column="0">
+
+        <Image Source="./Carte/chart.png" Grid.Row="0" Grid.ColumnSpan="2"></Image>
+
+        <!--riga 1-->
+        <Grid Grid.Row="1" Grid.Column="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50*"></RowDefinition>
                 <RowDefinition Height="10*"></RowDefinition>
@@ -48,8 +53,8 @@
 
 
 
-        <!--riga 1-->
-        <Grid Grid.Row="1" Grid.Column="0">
+        <!--riga 2-->
+        <Grid Grid.Row="2" Grid.Column="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
@@ -89,11 +94,11 @@
         </Grid>
 
 
-        <Button x:Name="SlotButton" Grid.Row="0" Grid.Column="1" Background="Transparent" Click="Button_Click">
+        <Button x:Name="SlotButton" Grid.Row="1" Grid.Column="1" Background="Transparent" Click="Button_Click">
             <DynamicResource ResourceKey="Play"></DynamicResource>
         </Button>
 
-        <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">
+        <Grid Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition ></RowDefinition>
                 <RowDefinition ></RowDefinition>

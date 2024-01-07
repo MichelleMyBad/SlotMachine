@@ -38,9 +38,9 @@ namespace SlotMachineProj
             InizzializzaTimer();
             Random rnd= new Random();
 
-            let1.Background = Slicing(rnd.Next(0,26));
-            let2.Background = Slicing(rnd.Next(0,26));
-            let3.Background = Slicing(rnd.Next(0,26));
+            let1.Background = Slicing(rnd.Next(1,27));
+            let2.Background = Slicing(rnd.Next(1,27));
+            let3.Background = Slicing(rnd.Next(1,27));
         }
 
          SlotMachine slot = new SlotMachine();
@@ -173,10 +173,11 @@ namespace SlotMachineProj
             int larghezzaSlice = simboli.PixelWidth/2;
             int altezzaSlice = simboli.PixelHeight/13;
 
+            indiceCartaCorrente --;
 
             //Coordinate di slicing
-            int colonna = indiceCartaCorrente % (simboli.PixelWidth / larghezzaSlice);
-            int riga = indiceCartaCorrente % (simboli.PixelHeight / altezzaSlice);
+            int colonna = indiceCartaCorrente % 2;
+            int riga = indiceCartaCorrente/2 % 13;
             //slicing
             CroppedBitmap simboloSingolo = new CroppedBitmap(simboli, new Int32Rect(colonna * larghezzaSlice, riga * altezzaSlice, larghezzaSlice, altezzaSlice));
 
