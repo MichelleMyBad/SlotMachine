@@ -88,7 +88,7 @@ Dopo aver inserito il credito la prima volta verrà poi mostrata questa interfac
 <br>
 Dopo ogni <i>"Roll"</i> verranno mostrate tre lettere generate randmicamente<br>È possibile mantenere la lettera tramite l'opzione <i>"Mantieni/libera lettera"</i>
 <br><br>
-<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/8afc9c4a-6f03-483d-ac88-8a66b1a640ae" width="400">
+<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/8afc9c4a-6f03-483d-ac88-8a66b1a640ae" width="500">
 <br>
 Una volta selezionata l'opzione ci verrà chiesto di selezionare quale lettera si desitera mantenere o liberare, quelle mantenute verranno mostrate nella sezione apposita "Lettere mantenute" mentre, in caso di "liberazione", la lettera precedentemente in quella sezione verrà rimossa.<br>
 Le lettere mantenute rimarranno invariate al prossimo <i>"Roll"</i>
