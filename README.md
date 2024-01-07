@@ -26,14 +26,14 @@ Esercizio in WPF e console che si occupa di emulare una slot machine.<br><br>
 
 
 <b>Caselle e "Hold"</b><br>
-<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/9d219b96-e9a4-4ded-9c2a-6ba09c9431e6">
+<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/9d219b96-e9a4-4ded-9c2a-6ba09c9431e6" width="400">
 <br>
 Ogni casella mostra un rimbolo generato randomicamente. <br>È possibile mantenere il simbolo tramite il pulsante <i>"Hold"</i>, di modo che, al prossimo spin, il simbolo selezionato non cambi. È possibile fare questa operazione solo con due simboli per volta.<br>
 Se cliccato nuovamente il tasto libererà il simbolo precedentemente mantenuto
 <br><br>
 
 <b>Inserimento e gestione del saldo</b><br>
-<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/ad809dc6-8f6b-41d5-9f9d-5eb6f56d5a56">
+<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/ad809dc6-8f6b-41d5-9f9d-5eb6f56d5a56" width="400">
 <br>
 È possibile aggiungere una quantità di monete definita dall'utente quando si vuole. Ogni moneta permetterà un massimo di 3 spin e, in caso si ottengano vincite, la vincita ottenuta verrà mostrata nella sezione apposita <i>"ultima vincita"</i> e aggiunta al saldo.
 <br>
