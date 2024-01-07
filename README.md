@@ -56,14 +56,14 @@ Al click della manopola, avverrà uno spin che genererà randomicamente 3 nuove 
 <summary>Console</summary>
 
 <b>Interfaccia grafica iniziale</b><br>
-<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/e8437f6e-7242-4706-a748-d9fb790693c1">
+<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/e8437f6e-7242-4706-a748-d9fb790693c1" width="400">
 <br>
 Nell'interfaccia grafica iniziale viene permesso all'utente soltanto di inserire il credito
 <br>
 <br>
 
 <b>Interfaccia grafica completa</b><br>
-<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/991ff451-5ebb-409a-8923-74960d691454">
+<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/991ff451-5ebb-409a-8923-74960d691454" width="400"><br>
 Dopo aver inserito il credito la prima volta verrà poi mostrata questa interfaccia, che permetterà all'utente di svolgere diverse operazioni
 <br><br><br>
 <b>Punteggi</b><br>
@@ -88,7 +88,7 @@ Dopo aver inserito il credito la prima volta verrà poi mostrata questa interfac
 <br>
 Dopo ogni <i>"Roll"</i> verranno mostrate tre lettere generate randmicamente<br>È possibile mantenere la lettera tramite l'opzione <i>"Mantieni/libera lettera"</i>
 <br><br>
-<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/8afc9c4a-6f03-483d-ac88-8a66b1a640ae">
+<img src="https://github.com/MichelleMyBad/SlotMachine/assets/127590227/8afc9c4a-6f03-483d-ac88-8a66b1a640ae" width="400">
 <br>
 Una volta selezionata l'opzione ci verrà chiesto di selezionare quale lettera si desitera mantenere o liberare, quelle mantenute verranno mostrate nella sezione apposita "Lettere mantenute" mentre, in caso di "liberazione", la lettera precedentemente in quella sezione verrà rimossa.<br>
 Le lettere mantenute rimarranno invariate al prossimo <i>"Roll"</i>
